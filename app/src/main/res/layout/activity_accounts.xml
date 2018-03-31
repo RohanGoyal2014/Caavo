@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountsActivity">
+
+    <ImageView
+        android:layout_width="@dimen/dp_170"
+        android:layout_height="@dimen/dp_170"
+        android:src="@drawable/caavo"
+        android:layout_gravity="center"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/login_card"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/dp_24"
+        app:cardCornerRadius="@dimen/dp_8"
+        android:layout_height="wrap_content">
+            <TextView
+                android:drawableStart="@drawable/googleg_standard_color_18"
+                android:drawablePadding="@dimen/dp_8"
+                android:textSize="@dimen/sp_20"
+                android:id="@+id/google_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/dp_16"
+                android:text="@string/fui_sign_in_with_google" />
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

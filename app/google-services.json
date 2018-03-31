@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "629167323097",
+    "firebase_url": "https://caavo-b249c.firebaseio.com",
+    "project_id": "caavo-b249c",
+    "storage_bucket": "caavo-b249c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629167323097:android:b067cf5e384563a7",
+        "android_client_info": {
+          "package_name": "com.example.rohangoyal2014.caavo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629167323097-6j9en0o9sh1o23jgobgrb1iojaua9nhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohangoyal2014.caavo",
+            "certificate_hash": "6338bd51a30061ea8c70c181ab4b164c79e77737"
+          }
+        },
+        {
+          "client_id": "629167323097-mvlajdvq3adormkhqu5grbiiqjdg0vs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARoSN-Pe6VIEASl2v3bP0UO9o2_1KKj_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629167323097-mvlajdvq3adormkhqu5grbiiqjdg0vs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
